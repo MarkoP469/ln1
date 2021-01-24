@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inchoo</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+</head>
+<body>
+<button class="button" onclick="myFunction('')"><i class="fas fa-shopping-cart"></i></button>
+
+
+
+<div id="proizvod">
+	<div class="gume">
+		<h3>My Cart (3 Items)</h3>
+		<ul>
+			<li>
+				<div class="img-guma"><img src="img/guma2.jpg"></div>
+				<div class="opis">
+					<h2>Ime gume: Zimska</h2>
+					<p>Brand gume</p>
+					<p>Boja gume</p>
+					<p>4x$50</p>
+				</div>
+				<div style="clear: both;"></div> 
+			</li>
+			<li>
+				<div class="img-guma"><img src="img/guma2.jpg"></div>
+				<div class="opis">
+					<h2>Ime gume: Ljetna</h2>
+					<p>Brand gume</p>
+					<p>Boja gume</p>
+					<p>4x$50</p>
+				</div>
+				<div style="clear: both;"></div> 
+			</li>
+			<li>
+				<div class="img-guma"><img src="img/guma2.jpg"></div>
+				<div class="opis">
+					<h2>Ime gume: Univerzalna</h2>
+					<p>Brand gume</p>
+					<p>Boja gume</p>
+					<p>4x$50</p>
+				</div>
+				<div style="clear: both;"></div> 
+			</li>
+		</ul>
+		<button class="button1">Edit Cart</button><button class="button2">CHECKOUT</button>
+	</div>
+</div>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("proizvod");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</body>
+</html>
